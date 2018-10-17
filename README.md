@@ -1,13 +1,13 @@
 # Django Project Boilerplate
 
-####Requirements
+#### Requirements
 Python 3.6.5 (create a virtual environment)  
 Postgresql (latest version)  
 Git (latest version)
 
 #### Cloning
 Clone project using  
-`$ git clone <repo url>`
+`$ git clone https://github.com/Shahzadfarukh100/ProjectBP.git`
 
 
 #### Project structure
