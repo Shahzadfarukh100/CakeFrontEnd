@@ -1,4 +1,4 @@
-# Django Project Boilerplate
+# Cake Front End
 
 #### Requirements
 Python 3.6.5 (create a virtual environment)  
