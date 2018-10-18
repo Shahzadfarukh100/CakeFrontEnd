@@ -13,7 +13,7 @@ Clone project using
 #### Project structure
 
 ```
-ProjectBP (rename this dir as your project name)
+CakeFrontEnd
 │   README.md (main readme file)
 │   .gitignore (gitignore file)
 │   requirements.txt (requirements file)
