@@ -1,0 +1,234 @@
+                                            @font-face {
+                                            font-family: 'Roboto';
+                                            src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+                                        }
+
+
+                                        body,
+                                        .row {
+                                            margin: 0;
+                                            padding: 0;
+                                            font-family: Roboto;
+                                        }
+
+                                        .header {
+                                            background-color: #5ac0de;
+                                            color: #fff;
+                                            padding: 30px 0;
+                                        }
+
+                                        .header p {
+                                            padding: 0;
+                                            margin: 0;
+                                            text-align: center;
+                                            width: 100%;
+                                        }
+                                        /*after header section 1*/
+
+                                        .jump-heading {
+                                            font-size: 15px;
+                                            font-weight: 300;
+                                            color: #8a8a8a;
+                                            padding: 50px 0;
+                                        }
+
+                                        .jump-heading i,
+                                        .jump-heading a {
+                                            color: #54bedc;
+                                        }
+
+                                        .heading-para h1 {
+                                            color: #555555;
+                                        }
+
+                                        .heading-para .short-line {
+                                            width: 50px;
+                                            height: 4px;
+                                            background-color: #e8e8e8;
+                                            margin: 50px 0;
+                                        }
+
+                                        .heading-para p {
+                                            color: #8a8a8a;
+                                        }
+
+                                        .exe-cont {
+                                            color: #54bedc;
+                                            margin: 50px 0 100px 0;
+                                        }
+                                        /*Section 2*/
+
+                                        .section-2,
+                                        .section-3 {
+                                            background-color: #f7f7f7;
+                                            padding: 80px 0;
+                                            border-top: 2px solid #efefef;
+                                            border-bottom: 2px solid #efefef;
+                                        }
+
+                                        .heading-boder-bottom {
+
+                                            border-bottom: 3px solid #efefef;
+                                        }
+
+                                        .heading-btn small {
+                                            text-transform: uppercase;
+                                            color: #8a8a8a;
+                                            padding: 25px 0;
+                                            display: block;
+                                            font-size: 11px;
+                                        }
+
+                                        .heading-btn h2 {
+                                            color: #585858;
+                                            padding: 0;
+                                            margin: 0;
+                                            padding-bottom: 35px;
+                                        }
+
+                                        .small-box {
+                                            padding: 0;
+                                        }
+
+                                        .btn-box {
+                                            display: flex;
+                                            justify-content: flex-end;
+                                            align-items: flex-start;
+                                        }
+
+                                        .btn-box button {
+                                            color: #52bddd;
+                                            font-size: 13px;
+                                            border: 1px solid #52bddd;
+                                            padding: 5px 20px;
+                                            background-color: transparent;
+                                            border-radius: 15px;
+                                        }
+
+                                        .btn-box button:hover,
+                                        .btn-box button:focus {
+                                            background-color: #52bddd;
+                                            color: #fff;
+                                            text-decoration: none;
+                                            outline: none;
+                                        }
+
+                                        .inner-all small {
+                                            padding-top: 35px;
+                                            display: block;
+                                            padding-bottom: 25px;
+                                            text-transform: uppercase;
+                                            color: #8a8a8a;
+                                        }
+
+                                        .inner-box-holder {
+                                            padding-left: 0;
+                                            padding-right: 25px;
+                                        }
+
+                                        .inner-box-holder2 {
+                                            padding-right: 0;
+                                            padding-left: 25px;
+                                        }
+
+                                        .inner-small-box {
+                                            background-color: #fff;
+                                            border: 1px solid #efefef;
+                                            padding: 35px 60px;
+                                            position: relative;
+                                        }
+
+                                        .inner-small-box h4 {
+                                            color: #5e8ac7;
+                                        }
+
+                                        .inner-small-box .cp-btns {
+                                            position: absolute;
+                                            top: 35px;
+                                            right: 60px;
+                                        }
+
+                                        .inner-small-box .cp-btns button {
+                                            background-color: transparent;
+                                            border: none;
+                                            color: #5e8ac7;
+                                            cursor: pointer;
+                                            font-size: 20px;
+                                        }
+
+                                        .inner-small-box p {
+                                            padding-top: 30px;
+                                            font-size: 20px;
+                                            color: #8a8a8a;
+                                        }
+
+                                        .inner-small-box span {
+                                            width: 30px;
+                                            height: 30px;
+                                            background-color: #5e8ac7;
+                                            color: #fff;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            border-radius: 50%;
+                                            font-size: 13px;
+                                            position: absolute;
+                                            top: 50%;
+                                            left: -15px;
+                                            transform: translateY(-50%);
+                                        }
+                                        /*Section 3*/
+
+                                        .section-3 {
+                                            background-color: #fff;
+                                            border: none;
+                                        }
+
+                                        .inner-small-box-sec3 {
+                                            background-color: #f7f7f7;
+                                        }
+                                        /*footer*/
+
+                                        .footer {
+                                            background-color: #5ac0de;
+                                            color: #fff;
+                                            padding: 60px 0;
+                                        }
+
+                                        .footer p {
+                                            text-align: center;
+                                            width: 100%;
+                                        }
+                                        /*Media Query*/
+
+                                        @media (max-width: 767px) {
+
+                                            .inner-box-holder {
+                                                padding: 0;
+                                                margin-bottom: 30px;
+                                            }
+                                            .inner-box-holder2 {
+                                                padding: 0;
+                                                margin-bottom: 30px;
+                                            }
+                                            .inner-small-box {
+                                                padding: 35px 20px;
+                                            }
+
+                                            .inner-small-box span {
+                                                top: -15px;
+                                                left: 50%;
+                                                transform: translate(-50%, 0%);
+                                            }
+                                            .inner-all small {
+                                                text-align: center;
+                                            }
+                                            .btn-box button {
+                                                margin-bottom: 20px;
+                                            }
+                                        }
+
+                                        @media (min-width: 1200px) {
+                                            .container {
+                                                max-width: 1000px;
+                                            }
