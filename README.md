@@ -7,7 +7,7 @@ Git (latest version)
 
 #### Cloning
 Clone project using  
-`$ git clone https://github.com/Shahzadfarukh100/ProjectBP.git`
+`$ git clone https://github.com/Shahzadfarukh100/CakeFrontEnd.git`
 
 
 #### Project structure
